@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tik Tac Toe</title>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tik Tac Toe</title>
 </head>
 <body>
-    
+    <!--
+        We need to make a grid?
+        It has to be 3x3
+        and it need to be clickable
+    -->
+    <!--
+        I am making a tic tac toe game
+        I need to make a grid that is 3x3
+        each cell needs to be clickable
+        and I also need to alternate between x and 0
+    -->
+    <main>
+        <div class="board">
+            <div class="row">
+              <div onclick="" class="col s1">1</div>
+              <div onclick="" class="col s1">2</div>
+              <div onclick="" class="col s1">3</div>
+            </div>
+
+            <div class="row">
+              <div onclick="" class="col s1">4</div>
+              <div onclick="" class="col s1">5</div>
+              <div onclick="" class="col s1">6</div>
+            </div>
+
+            <div class="row">
+              <div onclick="" class="col s1">7</div>
+              <div onclick="" class="col s1">8</div>
+              <div onclick="" class="col s1">9</div>
+            </div>
+        </div>
+
+        <div class="status">
+            <h2 id="player">Player X's turn</h2>
+        </div>
+        <div class="reset">
+            <button id="reset">Reset</button>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
